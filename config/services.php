@@ -35,4 +35,13 @@ return [
         ],
     ],
 
+    'guesty' => [
+        'base_url' => env('GUESTY_URL', 'https://booking.guesty.com'),
+        'client_id' => env('GUESTY_CLIENT_ID'),
+        'client_secret' => env('GUESTY_CLIENT_SECRET'),
+        'scope' => env('GUESTY_SCOPE'),
+        'prefix' => env('GUESTY_PREFIX'),
+        'api_timeout' => 30, // Timeout in seconds for API requests
+    ],
+
 ];
